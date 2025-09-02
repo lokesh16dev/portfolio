@@ -282,6 +282,20 @@ body {
     box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
 }
 
+.btn-primary:disabled {
+    background: #9ca3af;
+    color: #6b7280;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.btn-primary:disabled:hover {
+    background: #9ca3af;
+    transform: none;
+    box-shadow: none;
+}
+
 .btn-secondary {
     background: transparent;
     color: white;
